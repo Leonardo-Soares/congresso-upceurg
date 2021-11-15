@@ -188,6 +188,7 @@ h1, h2, h3, h4, h5, h6 {
   font-size: 15px;
   text-transform: none;
   font-weight: 600;
+  color: black;
 }
 
 .navbar .dropdown ul a i {
@@ -276,7 +277,7 @@ h1, h2, h3, h4, h5, h6 {
   right: 15px;
   bottom: 15px;
   left: 15px;
-  padding: 10px 0;
+  padding: 10px 10px;
   background-color: #fff;
   overflow-y: auto;
   transition: 0.3s;
@@ -289,7 +290,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .navbar-mobile a:hover, .navbar-mobile .active, .navbar-mobile li:hover > a {
-  color: #7cc576;
+  color: #959595;
 }
 
 .navbar-mobile .getstarted {
@@ -321,7 +322,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .navbar-mobile .dropdown ul a:hover, .navbar-mobile .dropdown ul .active:hover, .navbar-mobile .dropdown ul li:hover > a {
-  color: #7cc576;
+  color: #959492;
 }
 
 .navbar-mobile .dropdown > .dropdown-active {
@@ -540,7 +541,7 @@ section {
 }
 
 .featured .nav-link.active h4 {
-  color: black;
+  color: #fff;
 }
 
 .featured .tab-pane.active {

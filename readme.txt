@@ -6,3 +6,9 @@ Copyright information for the template can't be altered/removed unless you purch
 More information about the license is available here: https://colorlib.com/wp/licence/
 
 Removing copyright information without the license will result in suspension of your hosting and/or domain name(s).
+
+
+  * Template Name: Knight - v4.3.0
+  * Template URL: https://bootstrapmade.com/knight-free-bootstrap-theme/
+  * Author: BootstrapMade.com
+  * License: https://bootstrapmade.com/license/
