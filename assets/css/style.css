@@ -364,7 +364,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #hero .hero-logo {
-  margin-bottom: 2rem;
+  margin-bottom: auto;
 }
 
 #hero h1 {
@@ -409,7 +409,15 @@ h1, h2, h3, h4, h5, h6 {
   }
 }
 
+.span-mobile {
+  display: none;
+}
+
 @media (max-width: 768px) {
+  #hero {
+    margin-bottom: 70px;
+    min-height: 73vh;
+  }
   #hero h1 {
     font-size: 28px;
     line-height: 36px;
@@ -417,6 +425,14 @@ h1, h2, h3, h4, h5, h6 {
   #hero h2 {
     line-height: 22px;
   }
+  .span-web {
+    display: none;
+  }
+
+  .span-mobile {
+    display: block;
+  }
+
 }
 
 /*--------------------------------------------------------------
