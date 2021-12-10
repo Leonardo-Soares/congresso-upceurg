@@ -1748,3 +1748,16 @@ section {
   font-weight: bold;
   text-decoration: underline;
 }
+
+.mobile-banner{
+  display: none;
+}
+
+@media (max-width: 900px ) {
+  .mobile-banner{
+    display: block;
+  }
+  .web-banner{
+    display: none;
+  }
+}
