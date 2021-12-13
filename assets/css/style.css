@@ -365,6 +365,12 @@ h1, h2, h3, h4, h5, h6 {
 
 #hero .hero-logo {
   margin-bottom: auto;
+  width: 100%;
+  margin-bottom: 80px;
+}
+
+#hero .hero-logo img{
+  width: 100%;
 }
 
 #hero h1 {
