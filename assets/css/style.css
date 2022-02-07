@@ -1760,6 +1760,10 @@ section {
   display: none;
 }
 
+.tablet-banner {
+  display: none;
+}
+
 @media (max-width: 900px ) {
   .mobile-banner{
     display: block;
@@ -1769,5 +1773,62 @@ section {
   }
   #hero .hero-logo {
     padding-top: 40px;
+  }
+}
+
+@media (max-width: 900px) and (min-width: 769px) {
+    #header {
+      margin-top: 0px;
+    }
+    .mobile-banner {
+      display: none;
+    }
+    .tablet-banner {
+      display: none ;
+    }
+}
+
+@media (max-width: 500px ) {
+  #hero .hero-logo {
+    padding-top: 0px;
+  }
+  #hero {
+    min-height: 90vh;
+    margin-bottom: 20px;
+  }
+  .tablet-banner {
+    display: none;
+  }
+}
+
+@media (max-width: 500px ) {
+  #hero {
+    min-height: 90vh;
+    margin-bottom: 2%;
+  }
+}
+
+
+@media (max-width: 400px ) {
+  #hero {
+    min-height: 75vh;
+    margin-bottom: 2%;
+  }
+}
+
+@media (max-width: 350px ) {
+  #hero {
+    min-height: 65vh;
+    margin-bottom: 2%;
+  }
+}
+
+@media (max-width: 300px ) {
+  #hero .hero-logo {
+    padding-top: 0px;
+  }
+  #hero {
+    min-height: 60vh;
+    margin-bottom: 2%;
   }
 }
